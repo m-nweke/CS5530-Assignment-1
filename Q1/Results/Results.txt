@@ -1,0 +1,3 @@
+The raw data was cleaned by using on hot encoding on the frailty column and saved to ../data_clean/cleaned_yield_data.csv.
+From there, the correlation with the height and weight was checked against the measured grip strength.
+It was determined that these columns had little to no correlation with the grip strength and as a result, they were dropped and the resulting table was saved to ../data_clean/cleaned_data.csv
